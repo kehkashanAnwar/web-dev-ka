@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Comfortaa:wght@600&family=Kdam+Thmor+Pro&family=Merriweather:ital,wght@1,300&family=Oleo+Script+Swash+Caps&family=Oswald&family=Poppins:ital,wght@0,200;1,400&family=Source+Sans+Pro:wght@600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins';
+}
+body{
+    position:relative;
+    /* background-color:black; */
+    background:  linear-gradient(108.1deg, rgb(167, 220, 225) 11.2%, rgb(217, 239, 242) 88.9%);
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    color: rgb(77, 181, 215);
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:400px;
+    height:500px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.1);
+    padding:10px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    backdrop-filter: blur(30px);
+    z-index:100;
+    background-clip: padding-box;
+    transform:translate(-50%,-50%)
+}
+
+.glass h2{
+    font-size: 40px;
+    font-weight: 400px;
+    
+}
+
+.glass img{
+    width: 400px;
+    height: 500px;
+    top: 50px;
+}
+.shape-1{
+    top: 20px;
+    position: absolute;
+    left: 1000px;
+    bottom: 0px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(112.1deg, rgb(77, 238, 253) 0.7%, rgb(3, 151, 232) 26.1%, rgb(47, 31, 116) 95.7%);
+
+    border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.shape-2{
+    position: absolute;
+    left: 450px;
+    bottom: -20px;
+    width: 300px;
+    height: 400px;
+    background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
